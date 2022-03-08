@@ -10,7 +10,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "build-component": "vue-cli-service build --target lib --name vue-element-ui-transfer-tree ./src/components/index.js",
-    "build-doc": "vue-cli-service build --dest doc"
+    "build-doc": "vue-cli-service build --dest docs"
   },
   "dependencies": {
     "core-js": "^3.6.5",

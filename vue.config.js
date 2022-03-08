@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/vue-element-ui-transfer-tree",
+  publicPath: "/vue-element-ui-transfer-tree/",
 };

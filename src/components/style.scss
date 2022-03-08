@@ -1,0 +1,30 @@
+.el-card {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-none {
+  flex: none;
+}
+.transfer-button-wrap {
+  padding: 0 10px;
+}
+.tree-wrap {
+  height: 200px;
+  margin-top: 10px;
+  overflow-y: auto;
+}

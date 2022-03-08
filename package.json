@@ -1,14 +1,21 @@
 {
   "name": "vue-element-ui-transfer-tree",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "oys",
+  "description": "a base vue and element ui transfer tree components",
+  "main": "dist/vue-element-ui-transfer-tree.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-component": "vue-cli-service build --target lib --name vue-element-ui-transfer-tree ./src/components/index.js",
+    "build-doc": "vue-cli-service build --dest doc"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.6",
+    "lodash.clonedeep": "^4.5.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -16,8 +23,11 @@
     "@vue/cli-plugin-eslint": "~4.5.12",
     "@vue/cli-service": "~4.5.12",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.49.8",
+    "sass-loader": "10.1.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -37,6 +47,6 @@
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not dead"
+    "not ie <= 8"
   ]
 }

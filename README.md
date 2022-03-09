@@ -2,7 +2,9 @@
 
 一个基于 Vue.js 2.X 和 element ui 的穿梭树组件。使用前请确认已经引入 element-ui。
 
-demo: https://mars-ou1991.github.io/vue-element-ui-transfer-tree/
+![vue-element-ui-transfer-tree](https://raw.githubusercontent.com/mars-ou1991/vue-element-ui-transfer-tree/main/src/assets/vue-element-ui-transfer-tree.png?sanitize=true)
+
+### [在线预览 / Online preview](https://mars-ou1991.github.io/vue-element-ui-transfer-tree/)
 
 ## 安装
 
@@ -23,9 +25,7 @@ npm i -S vue-element-ui-transfer-tree
   ...
 ```
 
-## 具体使用
-
-详见：
+### [Demo 具体代码](https://github.com/mars-ou1991/vue-element-ui-transfer-tree/blob/main/src/App.vue)
 
 ## 参数 Props
 
